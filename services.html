@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню и Услуги — The Pelican Coffee Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">The Pelican <span>Coffee</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="services.html" class="active">Меню и Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="contacts.html#booking" class="btn btn-primary header-btn">Связаться</a>
+            <button class="mobile-menu-btn" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Меню и Услуги</h1>
+                <p>Наш фирменный кофе, бранчи и выпечка</p>
+            </div>
+        </section>
+
+        <section class="services-section section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Что мы предлагаем</h2>
+                    <p>Идеально для утра и плодотворного дня</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb');"></div>
+                        <div class="service-content">
+                            <h3>Авторский спешелти кофе и фильтр-кофе</h3>
+                            <p>Эспрессо, капучино, флэт уайт и альтернативные методы заваривания на зерне single-origin.</p>
+                            <span class="price">от 3.80 €</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');"></div>
+                        <div class="service-content">
+                            <h3>Субботние бранчи с 09:00 до 13:00</h3>
+                            <p>Специальное меню бранчей по субботам: тосты, яйца пашот и фирменные угощения.</p>
+                            <span class="price">от 9.50 €</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb');"></div>
+                        <div class="service-content">
+                            <h3>Свежая домашняя выпечка и легкие закуски</h3>
+                            <p>Круассаны, пироги и полезные сэндвичи, приготовленные из свежих ингредиентов.</p>
+                            <span class="price">от 4.20 €</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');"></div>
+                        <div class="service-content">
+                            <h3>Удобные места для работы с ноутбуком и Wi-Fi</h3>
+                            <p>Комфортное пространство с розетками и быстрым интернетом для вашей продуктивности.</p>
+                            <a href="contacts.html" class="btn btn-primary" style="margin-top: 15px; display: inline-block;">Задать вопрос</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">The Pelican <span>Coffee</span></a>
+                <p>Pelikangasse 4<br>1090 Wien, Österreich</p>
+            </div>
+            <div class="footer-col">
+                <h4>Часы работы</h4>
+                <p>Пн-Пт: 07:30 – 18:00<br>Сб: 09:00 – 17:00<br>Вс: Выходной</p>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Pelican Coffee Company Wien. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
